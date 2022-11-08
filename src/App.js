@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000")
+      .get("https://imgupload3.herokuapp.com/")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err, "it has an error"));
   });
