@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  padding: 20px 10%;
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+}
+.upload{
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+}
